@@ -14,8 +14,7 @@ builder.Services
     .Services
     .AddMcpServer()
     .WithStdioServerTransport()
-    .WithTools<WeatherTools>()
     .WithTools<GetCurrentWeatherTool>()
-    .WithTools<GetWeatherForecastTool>(); ;
+    .WithTools<GetWeatherForecastTool>();
 
 await builder.Build().RunAsync();

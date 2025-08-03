@@ -1,21 +1,25 @@
 {
-  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
-  "description": "<your description here>",
-  "name": "io.github.<your GitHub username here>/<your repo name>",
+  "description": "A sample MCP server with weather predictions",
+  "name": "io.github.sabitovskii/weather_mcp",
   "packages": [
     {
       "registry_name": "nuget",
-      "name": "<your package ID here>",
-      "version": "0.1.0-beta",
+      "name": "Sabitovskii.WeatherMCP",
+      "version": "1.0.0",
       "package_arguments": [],
-      "environment_variables": []
+      "environment_variables": [
+        {
+          "name": "OPENWEATHER_API_KEY",
+          "value": "4b9ceec137b853577fd943af817b5c72"
+        }
+      ]
     }
   ],
   "repository": {
-    "url": "https://github.com/<your GitHub username here>/<your repo name>",
+    "url": "https://github.com/sabitovskii/weather_mcp",
     "source": "github"
   },
   "version_detail": {
-    "version": "0.1.0-beta"
+    "version": "1.0.0"
   }
 }

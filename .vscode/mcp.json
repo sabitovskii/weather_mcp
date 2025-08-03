@@ -9,7 +9,8 @@
         "."
       ],
       "env": {
-        "WEATHER_CHOICES": "sunny,humid,freezing,perfect"
+        "WEATHER_CHOICES": "sunny,humid,freezing,perfect",
+        "OPENWEATHER_API_KEY": "4b9ceec137b853577fd943af817b5c72"
       }
     }
   }
