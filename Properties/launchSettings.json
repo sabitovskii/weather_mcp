@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "WeatherMcpServer": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5115",
+      "environmentVariables": {
+        "OPENWEATHER_API_KEY": "4b9ceec137b853577fd943af817b5c72"
+      }
+    }
+  }
+}
